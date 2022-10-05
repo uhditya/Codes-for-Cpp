@@ -9,7 +9,7 @@ int Dist(Point p, Point q) {
    return (p.x - q.x)*(p.x - q.x) + (p.y - q.y)*(p.y - q.y);
 }
 
-bool check_square(Point p1, Point p2, Point p3, Point p4) {    
+bool check_square(Point p1, Point p2, Point p3, Point p4) {     
    int dist12 = Dist(p1, p2);     
    int dist13 = Dist(p1, p3);     
    int dist14 = Dist(p1, p4);     
